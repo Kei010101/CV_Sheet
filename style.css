@@ -1,0 +1,282 @@
+body {
+  margin: 5%;
+  background-color: rgb(255, 255, 240);
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.imgPlusIntro {
+  display: flex;
+  margin-left: -10%;
+}
+
+.mainImg {
+  display: flex;
+  width: 200px;
+  height: 150px;
+}
+
+.mainPhoto {
+  width: 150px;
+  height: 150px;
+  border: none;
+  border-radius: 0px 60px 60px 60px;
+  box-shadow: 3px 5px 10px gray, -4px -2px 5px #0000;
+}
+
+.introduce {
+  margin-top: -5%;
+}
+
+.myName {
+  width: 20px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.jobTitle {
+  color: rgb(70, 67, 67);
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-weight: 600;
+  font-size: large;
+}
+
+.sepecifications > * {
+  display: flex;
+  line-height: 80%;
+}
+
+/* ************************************************************** */
+
+.num {
+  display: flex;
+  width: 200px;
+  align-items: center;
+}
+
+.phoneIcon {
+  width: 30px;
+  height: 30px;
+  font-size: small;
+}
+
+.numberP {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-weight: 600;
+}
+
+.specElems {
+  margin-left: 5%;
+}
+
+.e__mail {
+  display: flex;
+  width: 200px;
+  align-items: center;
+}
+
+.letterIcon {
+  width: 30px;
+  height: 30px;
+  font-size: small;
+}
+
+.Email {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-weight: 600;
+}
+
+.ownerWeb {
+  display: flex;
+  width: 200px;
+  align-items: center;
+}
+
+.cursorIcon {
+  width: 30px;
+  height: 30px;
+  font-size: small;
+}
+
+.webLink {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-weight: 600;
+}
+
+.location {
+  display: flex;
+  width: 200px;
+  align-items: center;
+}
+
+.locationIcon {
+  width: 30px;
+  height: 30px;
+  font-size: small;
+}
+
+.cityLocName {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-weight: 600;
+}
+
+/* ************************************************************************************************** */
+/* ************************************************************************************************** */
+
+main {
+  margin: 5%;
+  background-color: rgb(255, 255, 240);
+}
+
+main > * {
+  margin-top: 10%;
+}
+
+.summaryTitle {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-weight: 600;
+}
+
+.underLineDiv {
+  width: 100%;
+  height: 1px;
+  border: 1px dashed #000;
+}
+
+.summaryTxt {
+  width: 95%;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: medium;
+}
+
+.edu {
+  list-style-type: lower-greek;
+  line-height: 150%;
+}
+
+.eduElems {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: smaller;
+}
+
+.CEedit {
+  text-shadow: 1px -1px 2px #ece7e7, 2px 1px 2px #d4cece;
+  font-weight: 600;
+}
+
+.skillsElems {
+  display: flex;
+  width: 250px;
+  justify-content: center;
+  align-items: center;
+}
+
+.skillsElems > * {
+  margin-left: 20%;
+}
+
+.skillName {
+  width: 200px;
+
+  text-shadow: 1px -1px 2px #ece7e7, 2px 1px 2px #d4cece;
+  font-size: large;
+  font-weight: 600;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.skillLevel {
+  color: rgba(167, 161, 161, 0.897);
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: medium;
+  font-weight: 600;
+}
+
+.skillsContainer {
+  display: flex;
+  justify-content: space-between;
+  margin-left: -5%;
+}
+
+.LangContainer {
+  display: flex;
+  justify-content: space-between;
+  margin-left: -5%;
+}
+
+.projUl {
+  list-style-type: circle;
+}
+
+.projElems {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: medium;
+}
+
+.jobTitleEx {
+  display: flex;
+  align-items: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: medium;
+  font-weight: 600;
+}
+
+.titleJobEX {
+  display: flex;
+  justify-content: space-between;
+}
+
+.kei01A {
+  display: flex;
+  align-items: center;
+  margin-bottom: 2%;
+}
+
+.kei01tag {
+  color: #b9b4b4;
+  font-family: cursive;
+  font-size: medium;
+}
+
+.eXPeriod {
+  color: #8b8686;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 600;
+  font-size: medium;
+}
+
+.summaryContainer {
+  text-align: justify;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: medium;
+}
+
+.redHighLight {
+  color: red;
+}
+
+.yellowHighLight {
+  color: yellow;
+  background-color: #b3adad;
+  border-radius: 5px;
+}
+
+.flashIcon {
+  display: flex;
+  width: 20px;
+  height: 20px;
+  transform: rotate(30deg);
+}
+
+.titleEXP {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 600;
+  font-size: medium;
+}
+
+.projectsAtag {
+  font-family: cursive;
+  font-style: italic;
+  color: #b3adad;
+}
